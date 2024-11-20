@@ -1,4 +1,4 @@
-import {Box, Button, Dialog, DialogActions, DialogContent, Stack, Typography} from "@mui/material";
+import {Button, Dialog, DialogActions, DialogContent, Stack, Typography} from "@mui/material";
 import {Question} from "../types";
 import {useState} from "react";
 
