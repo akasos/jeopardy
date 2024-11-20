@@ -51,7 +51,7 @@ export const jeopardyCategories: Category[] = [
             {points: 100, questionText: "What year did Mark start running?", answer: "2010", isAnswered: false},
             {points: 200, questionText: "Where were his 3 trips he won at steris?", answer: "St. Kitts & Curacao & St. Thomas", isAnswered: false},
             {points: 300, questionText: "What gift did he receive for christmas that made him laugh for 10 minutes straight?", answer: "White underwear and a barbie", isAnswered: false},
-            {points: 400, questionText: "What was Dad's first marathon?", answer: "ogden marathon", isAnswered: false},
+            {points: 400, questionText: "What was Dad's first marathon?", answer: "Ogden Marathon", isAnswered: false},
             {points: 500, questionText: "What were the 2 big trips Mark brought his family on?", answer: "Hawaii & Bahamas", isAnswered: false},
             {points: 600, questionText: "How much weight did Mark lose?", answer: "60 lbs", isAnswered: false},
         ]

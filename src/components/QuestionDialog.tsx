@@ -55,7 +55,7 @@ const QuestionDialog = ({question, onClose ,open }: QuestionDialogProps) => {
                 >
                     {showAnswer && (
                         <>
-                            <Typography textAlign="center" sx={{ mb: 2, fontSize: "1.5rem"}}>
+                            <Typography textAlign="center" sx={{ mb: 1, fontSize: "1.5rem"}}>
                                 Answer
                             </Typography>
                             <Typography textAlign="center" sx={{fontSize: "1.5rem"}}>
