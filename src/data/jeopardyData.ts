@@ -62,7 +62,7 @@ export const jeopardyCategories: Category[] = [
             {points: 100, questionText: "How many marathons has Mark ran?", answer: "17", isAnswered: false},
             {points: 200, questionText: "How many countries has Mark been to?", answer: "15", isAnswered: false},
             {points: 300, questionText: "How old was Mark when he became a grandpa?", answer: "50", isAnswered: false},
-            {points: 400, questionText: "Name the tattoos Mark wants", answer: "in latin down his side: 'fortune favors the bold', wings on both ankles, the ragnar skull on his back left shoulder, on his right wrist he would put S, J, R, B", isAnswered: false},
+            {points: 400, questionText: "Name the tattoos Mark wants", answer: "In latin down his side: 'fortune favors the bold', wings on both ankles, the ragnar skull on his back left shoulder, on his right wrist he would put S, J, R, B", isAnswered: false},
             {points: 500, questionText: "What snack will you always find in Mark's office?", answer: "Chocolate Chips", isAnswered: false},
             {points: 600, questionText: "Dad has a certification in what extreme sport?", answer: "Deep sea diving", isAnswered: false},
         ]
