@@ -57,8 +57,8 @@ const JeopardyBoard = () => {
                                 <Typography
                                     gutterBottom
                                     textAlign="center"
-                                    variant="h4"
-                                    sx={{mb: 0}}
+                                    noWrap
+                                    sx={{ mb: 0, fontSize: { xs: '1.5rem', md: '2rem' }}}
                                 >
                                     {category.name}
                                 </Typography>
@@ -75,9 +75,14 @@ const JeopardyBoard = () => {
                                         <Typography
                                             gutterBottom
                                             textAlign="center"
-                                            variant="h3"
-                                            sx={{color: '#D69F4C', mb: 0, opacity: question.isAnswered ? 0 : 1 }}>
-                                            {question.points}
+                                            sx={
+                                            {
+                                                color: '#D69F4C',
+                                                mb: 0,
+                                                opacity: question.isAnswered ? 0 : 1,
+                                                fontSize: { xs: "1rem", sm: '1.5rem', md: '2rem' }
+                                            }}>
+                                            $ {question.points}
                                         </Typography>
                                     </CardContent>
                                 </CardActionArea>

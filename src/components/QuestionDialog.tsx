@@ -41,14 +41,12 @@ const QuestionDialog = ({question, onClose ,open }: QuestionDialogProps) => {
                 display: "flex",
                 flexDirection: "column",
                 justifyContent: "center",
-                border: "1px solid green"
             }}>
                 <Typography gutterBottom variant="h4" textAlign="center">
                     {question.questionText}
                 </Typography>
                 <Stack
                     sx={{
-                        border: '1px solid #FFFDFF', // White border
                         mt: 2,
                         minHeight: '100px', // Reserve space for additional text
                         display: 'flex',
@@ -57,10 +55,10 @@ const QuestionDialog = ({question, onClose ,open }: QuestionDialogProps) => {
                 >
                     {showAnswer && (
                         <>
-                            <Typography textAlign="center" variant="h6">
+                            <Typography textAlign="center" sx={{fontSize: "1.5rem"}}>
                                 Answer
                             </Typography>
-                            <Typography textAlign="center" variant="h6">
+                            <Typography textAlign="center" sx={{fontSize: "1.5rem"}}>
                                 {question.answer}
                             </Typography>
                         </>
