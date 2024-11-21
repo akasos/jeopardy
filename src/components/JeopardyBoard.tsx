@@ -58,7 +58,7 @@ const JeopardyBoard = () => {
                                     gutterBottom
                                     textAlign="center"
                                     noWrap
-                                    sx={{ mb: 0, fontSize: { xs: "1rem", sm: '1.5rem', md: '2.5rem', lg: "3.5rem" }}}
+                                    sx={{ mb: 0, fontSize: { xs: "1rem", sm: '1.5rem', md: '2.5rem' }}}
                                 >
                                     {category.name}
                                 </Typography>
@@ -80,7 +80,7 @@ const JeopardyBoard = () => {
                                                 color: '#D69F4C',
                                                 mb: 0,
                                                 opacity: question.isAnswered ? 0 : 1,
-                                                fontSize: { xs: "1rem", sm: '1.5rem', md: '2.5rem', lg: "3.5rem" }
+                                                fontSize: { xs: "1rem", sm: '1.5rem', md: '2.5rem' }
                                             }}>
                                             $ {question.points}
                                         </Typography>
