@@ -42,7 +42,7 @@ const QuestionDialog = ({question, onClose ,open }: QuestionDialogProps) => {
                 flexDirection: "column",
                 justifyContent: "center",
             }}>
-                <Typography gutterBottom textAlign="center" sx={{fontSize: { xs: "1rem", sm: '1.5rem', md: '2.5rem', lg: "3.5rem" }}}>
+                <Typography gutterBottom textAlign="center" sx={{fontSize: { xs: "1rem", sm: '1.5rem', md: '2' }}}>
                     {question.questionText}
                 </Typography>
                 <Stack
@@ -55,10 +55,10 @@ const QuestionDialog = ({question, onClose ,open }: QuestionDialogProps) => {
                 >
                     {showAnswer && (
                         <>
-                            <Typography textAlign="center" sx={{ mb: 1, fontSize: { xs: "1rem", sm: '1.5rem', md: '2rem', lg: "3rem" }}}>
+                            <Typography textAlign="center" sx={{ mb: 1, fontSize: { xs: "1rem", sm: '1.5rem', md: '2rem' }}}>
                                 Answer
                             </Typography>
-                            <Typography textAlign="center" sx={{ fontSize: { xs: "1rem", sm: '1.5rem', md: '2rem', lg: "3rem" }}}>
+                            <Typography textAlign="center" sx={{ fontSize: { xs: "1rem", sm: '1.5rem', md: '2rem' }}}>
                                 {question.answer}
                             </Typography>
                         </>
