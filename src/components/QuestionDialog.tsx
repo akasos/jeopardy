@@ -42,7 +42,7 @@ const QuestionDialog = ({question, onClose ,open }: QuestionDialogProps) => {
                 flexDirection: "column",
                 justifyContent: "center",
             }}>
-                <Typography gutterBottom textAlign="center" sx={{fontSize: { xs: "1rem", sm: '1.5rem', md: '2' }}}>
+                <Typography gutterBottom textAlign="center" sx={{fontSize: { xs: "1rem", sm: '1.5rem', md: '2rem' }}}>
                     {question.questionText}
                 </Typography>
                 <Stack
