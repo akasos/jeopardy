@@ -2,7 +2,7 @@ import {Category} from "../types";
 
 export const jeopardyCategories: Category[] = [
     {
-        name: "Childhood",
+        name: "Child",
         questions: [
             {points: 100, questionText: "Mark's first kiss?", answer: "Shannon Hardy", isAnswered: false},
             {points: 200, questionText: "Mark befriended a stray cat and named him what?", answer: "Fred", isAnswered: false},
@@ -13,7 +13,7 @@ export const jeopardyCategories: Category[] = [
         ]
     },
     {
-        name: "Teenage Years",
+        name: "Teen",
         questions: [
             {points: 100, questionText: "What was Mark's first job?", answer: "Cherry picking", isAnswered: false},
             {points: 200, questionText: "What was Marks first concert?", answer: "Van Halen", isAnswered: false},
